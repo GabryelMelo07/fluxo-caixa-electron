@@ -1,0 +1,19 @@
+@import url("colors.css");
+
+.flex-div header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: var(--sidebar-color);
+    padding: 10px 30px;
+    border: 1px solid rgba(0, 0, 0, .0625);
+    border-left: 0px;
+}
+
+.header-title {
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 20px;
+}
