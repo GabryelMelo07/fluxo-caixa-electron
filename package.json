@@ -1,0 +1,18 @@
+{
+  "name": "fluxo-caixa-electron",
+  "version": "1.0.0",
+  "description": "Aplicação desktop para controle de entradas e saídas do caixa de uma pequena empresa",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  },
+  "dependencies": {
+    "pg": "^8.10.0"
+  }
+}

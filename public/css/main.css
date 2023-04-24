@@ -1,0 +1,29 @@
+@import url("colors.css");
+
+main {
+    /* Definindo a largura do main subtraindo o tamanho da sidebar */
+    display: block;
+    height: 100%;
+    width: calc(100% - 280px);
+    background: var(--body-light-color);
+}
+
+main .main-content {
+    /* Previnindo que o layout da página seja quebrado quando tiver overflow no main content */
+    padding: 5px;
+    width: 100%;
+    height: calc(100% - 70px);
+    overflow-y: auto;
+}
+
+.thead-tables {
+    background: var(--table-head);
+    color: var(--sidebar-color);
+}
+
+/* Remover as setas de mais e menos do input númerico */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

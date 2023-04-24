@@ -1,0 +1,10 @@
+:root {
+    /* ======= Colors ======= */
+    --body-light-color: #dedbd8;
+    --body-dark-color: #232323;
+    --primary-sidebar-color: #fb0404;
+    --table-head: #252525;
+    --sidebar-color: #efedeb;
+    --text-color: #707070;
+    --hover-text-color: #4d4d4d;
+}

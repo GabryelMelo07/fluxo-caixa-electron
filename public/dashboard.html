@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="icon" type="image/x-icon" href="img/logo-144x144.png">
+    <link rel="stylesheet" href="plugins/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="plugins/bootstrap-5.3.0-alpha3-dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js" defer></script>
+    <title>Renato Borracharia</title>
+</head>
+
+<body>
+
+    <div class="flex-div">
+
+        <aside class="sidebar-left">
+            <div class="sidebar-title">
+                <img src="img/logo-rr.png" alt="Logo Renato Borracharia">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class='bx bx-home'></i>
+                        <a href="index.html">Página Inicial</a>
+                    </li>
+                    <li>
+                        <i class='bx bx-line-chart'></i>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+
+                    <a href="https://www.facebook.com/renatoborrachariaoficial" id="fb"><i
+                            class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/renatoborrachariaoficial/" id="insta"><i
+                            class='bx bxl-instagram-alt'></i></a>
+
+                    <a href="https://github.com/gabryelmelo07" id="assinatura"><i class='bx bx-copyright'></i> Gabryel
+                        A. Melo</a>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <p class="header-title">Dashboards e Indicadores - Fluxo Caixa</p>
+            </header>
+
+            <div class="main-content">
+
+                <div class="dashboard-panel-row">
+
+                    <div class="card text-center text-white bg-dark mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucro hoje:</h3>
+                            <br>
+                            <h4 class="card-text" id="lucro_dia">R$ 9.850,99</h4>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="card text-center text-white bg-dark mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucro semanal:</h3>
+                            <br>
+                            <h4 class="card-text" id="lucro_semanal">R$ 9.850,99</h4>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="card text-center text-white bg-dark mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucro mensal:</h3>
+                            <br>
+                            <h4 class="card-text" id="lucro_mensal">R$ 9.850,99</h4>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="card text-center text-white bg-dark mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Lucro anual:</h3>
+                            <br>
+                            <h4 class="card-text" id="lucro_anual">R$ 9.850,99</h4>
+                            <br>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="dashboard-panel-row">
+                    <div class="dash">
+                        <canvas id="entradas_semanais"></canvas>
+                    </div>
+            
+                    <div class="dash">
+                        <canvas id="entradas_mensais"></canvas>
+                    </div>
+                </div>
+
+                <div class="dashboard-panel-row">
+                    <div class="dash">
+                        <canvas id="saidas_semanais"></canvas>
+                    </div>
+                
+                    <div class="dash">
+                        <canvas id="saidas_mensais"></canvas>
+                    </div>
+                </div>
+            </div>
+        </main>
+           
+    </div>
+        
+</body>
+
+</html>
