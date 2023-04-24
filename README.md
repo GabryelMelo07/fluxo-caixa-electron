@@ -8,8 +8,9 @@
 ## Sobre o projeto
 Aplicação desktop para controle de entradas e saídas do caixa de uma pequena empresa.
 
-A aplicação consiste em visualizar, inserir, atualizar e deletar novas operações de entradas e saídas monetárias de uma pequena empresa.
-Os dados do banco são tratados e mostrados como informação, na página inicial as informações são mostradas em lista dentro de uma tabela HTML, com ID, Data, Tipo e Valor da operação. Na tela de dashboards as informações são mostradas em gráficos e cards, calculando lucros e despesas diários, semanais, mensais e até anuais.
+A aplicação consiste em visualizar, inserir, atualizar e deletar novas operações de entradas e saídas monetárias de uma pequena empresa.<br />
+Os dados do banco são tratados e mostrados como informação, na página inicial as informações são mostradas em lista dentro de uma tabela HTML, com ID, Data, Tipo e Valor da operação. <br />
+Na tela de dashboards as informações são mostradas em gráficos e cards, calculando lucros e despesas diários, semanais, mensais e até anuais.
 
 ## Tecnologias utilizadas
 ### Back end
